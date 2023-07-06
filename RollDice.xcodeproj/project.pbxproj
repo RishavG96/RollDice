@@ -11,6 +11,10 @@
 		BDB0656C2A56333B00AAA974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0656B2A56333B00AAA974 /* ContentView.swift */; };
 		BDB0656E2A56333C00AAA974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB0656D2A56333C00AAA974 /* Assets.xcassets */; };
 		BDB065712A56333C00AAA974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB065702A56333C00AAA974 /* Preview Assets.xcassets */; };
+		BDB065782A5633E100AAA974 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB065772A5633E100AAA974 /* DiceView.swift */; };
+		BDB0657A2A5633E800AAA974 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB065792A5633E800AAA974 /* HistoryView.swift */; };
+		BDB0657C2A5634DC00AAA974 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0657B2A5634DC00AAA974 /* Dice.swift */; };
+		BDB0657E2A563DA100AAA974 /* FileManager+DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB0657D2A563DA100AAA974 /* FileManager+DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BDB0656B2A56333B00AAA974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDB0656D2A56333C00AAA974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB065702A56333C00AAA974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDB065772A5633E100AAA974 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		BDB065792A5633E800AAA974 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		BDB0657B2A5634DC00AAA974 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		BDB0657D2A563DA100AAA974 /* FileManager+DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		BDB065682A56333B00AAA974 /* RollDice */ = {
 			isa = PBXGroup;
 			children = (
+				BDB0657D2A563DA100AAA974 /* FileManager+DocumentsDirectory.swift */,
 				BDB065692A56333B00AAA974 /* RollDiceApp.swift */,
 				BDB0656B2A56333B00AAA974 /* ContentView.swift */,
+				BDB065772A5633E100AAA974 /* DiceView.swift */,
+				BDB0657B2A5634DC00AAA974 /* Dice.swift */,
+				BDB065792A5633E800AAA974 /* HistoryView.swift */,
 				BDB0656D2A56333C00AAA974 /* Assets.xcassets */,
 				BDB0656F2A56333C00AAA974 /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB0656C2A56333B00AAA974 /* ContentView.swift in Sources */,
+				BDB0657A2A5633E800AAA974 /* HistoryView.swift in Sources */,
+				BDB0657C2A5634DC00AAA974 /* Dice.swift in Sources */,
+				BDB065782A5633E100AAA974 /* DiceView.swift in Sources */,
+				BDB0657E2A563DA100AAA974 /* FileManager+DocumentsDirectory.swift in Sources */,
 				BDB0656A2A56333B00AAA974 /* RollDiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

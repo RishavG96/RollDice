@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var rolls = Rolls()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            DiceView()
+                .tabItem{
+                    Label("Roll Dice", systemImage: "gamecontroller.fill")
+                }
+            
+            HistoryView()
+                .tabItem{
+                    Label("History", systemImage: "clock")
+                }
         }
-        .padding()
+        .environmentObject(rolls)
     }
 }
 
